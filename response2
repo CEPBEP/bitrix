@@ -1,0 +1,59 @@
+{
+    'FROM': {
+        'ID': '1',
+        'LOGIN': 'admin',
+        'NAME': 'Егор Румянцев',
+        'URL': '/company/personal/user/1/',
+        'WORK_POSITION': '',
+        'PHOTO': ''
+    },
+    'TO': [{
+        'ID': '11',
+        'LOGIN': 's.bandurin',
+        'NAME': 'Станислав Бандурин',
+        'URL': '/company/personal/user/11/',
+        'WORK_POSITION': 'Генеральный директор',
+        'PHOTO': '/upload/resize_cache/main/381/32_32_2/9.jpg'
+    }],
+    'INFO': {
+        'INFO': {
+            'ID': '2',
+            'TIMESTAMP_X': '29.12.2017 02:33:48',
+            'USER_ID': '1',
+            'MODIFIED_BY': '1',
+            'ACTIVE': 'Y',
+            'PAUSED': 'Y',
+            'DATE_START': '1514497294',
+            'DATE_FINISH': '1514504028',
+            'TIME_START': '2494',
+            'TIME_FINISH': '9228',
+            'DURATION': '0',
+            'TIME_LEAKS': '0',
+            'TASKS': '',
+            'IP_OPEN': '127.0.0.1',
+            'IP_CLOSE': '127.0.0.1',
+            'FORUM_TOPIC_ID': '',
+            'USER_LOGIN': 'admin',
+            'USER_NAME': 'Егор',
+            'USER_LAST_NAME': 'Румянцев',
+            'USER_SECOND_NAME': '',
+            'USER_EMAIL': 'brewbaker@ya.ru',
+            'USER_GENDER': '',
+            'USER_ACTIVE': 'Y',
+            'ACTIVATED': 'N',
+            'TIME_OFFSET': '0'
+        },
+        'DATE_TEXT': '29 Декабря 2017',
+        'CALENDAR_ENABLED': true,
+        'TASKS_ENABLED': true,
+        'STATE': 'PAUSED',
+        'EXPIRED_DATE': '64800'
+    },
+    'REPORT': '',
+    'CAN_EDIT': 'Y',
+    'REPORTS': [],
+    'NEIGHBOURS': {
+        'PREV': '1'
+    },
+    'COMMENTS': ''
+}
