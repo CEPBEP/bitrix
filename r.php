@@ -1,4 +1,4 @@
-<?//                                                        VARS
+<?
 $var_psid = session_id();
 $var_ssid = $_SESSION["fixed_session_id"];
 $var_useragent = $_SERVER["HTTP_USER_AGENT"];
