@@ -14,7 +14,7 @@ curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_ENCODING, 'gzip, deflate');*/
 
 $headers = array();
-$headers[] = "Host: localhost:6448";
+$headers[] = "Host: $cax";
 $headers[] = "User-Agent:$csa";
 $headers[] = "Accept: */*";
 $headers[] = "Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3";
