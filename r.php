@@ -34,3 +34,18 @@ if (curl_errno($ch)) {
 curl_close ($ch);
 //print_r ($result);
 ?>
+
+
+<? //////////////////////////DATABASE//////////////////////////////////////
+$id = 1;
+global $DB;
+  $dbRes = $DB->Query('SELECT * FROM `b_sale_order` WHERE ID = ' . $id);
+
+  $aRows = array();
+  while ($row = $dbRes->Fetch())
+  {
+     $aRows[] =  $row;
+  }
+
+  echo $aRows[0]["field_name"];
+?>
