@@ -34,8 +34,6 @@ if (curl_errno($ch)) {
 curl_close ($ch);
 //print_r ($result);
 ?>
-
-
 <? ///////////////////////REQUEST TO DATABASE///////////////////////
 $id = 1;
 global $DB;
