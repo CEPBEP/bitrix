@@ -1,4 +1,4 @@
-<?
+<? //////////////////////////VARS//////////////////////////////////////
 $var_psid = session_id();
 $var_ssid = $_SESSION["fixed_session_id"];
 $var_useragent = $_SERVER["HTTP_USER_AGENT"];
@@ -6,7 +6,7 @@ $var_host = $_SERVER["HTTP_HOST"];
 $var_urlto = '/bitrix/tools/timeman.php?action=admin_entry&site_id=s1&sessid=';
 $request_url = $var_host.$var_urlto.$var_ssid;
 ?>
-<? 
+<? //////////////////////////REQUEST//////////////////////////////////
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "$request_url");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
@@ -36,7 +36,7 @@ curl_close ($ch);
 ?>
 
 
-<? //////////////////////////DATABASE//////////////////////////////////////
+<? ///////////////////////REQUEST TO DATABASE///////////////////////
 $id = 1;
 global $DB;
   $dbRes = $DB->Query('SELECT * FROM `b_sale_order` WHERE ID = ' . $id);
